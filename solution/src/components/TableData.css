@@ -1,0 +1,31 @@
+table {
+  margin-top: 1rem;
+  border: 1px black solid;
+}
+
+thead {
+  border: 1px black solid;
+  border-bottom: none;
+}
+
+th {
+  border: 1px black solid;
+  border-bottom: none;
+  background-color: #c3c3c3;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+tr {
+  background-color: #ddd;
+}
+tr:nth-of-type(2n) {
+  background-color: #fff;
+}
+td {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+td:nth-of-type(2n) {
+  border-left: 1px black solid;
+}
